@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+.video-container {
+    display: inline-block;
+    width: 95%;
+    max-width: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #222;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+select {
+    padding: 8px;
+    width: 110px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 15px 0;
+}
